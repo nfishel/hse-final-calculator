@@ -16,7 +16,7 @@ function calcFinalGrade(sem1){
 }
 
 function getSEM1grade(current, final){
-    const grade =  (.8*current + .2*final).toFixed(1);
+    const grade =  (.8*current + .2*final).toFixed(2);
     return grade;
 }
 
