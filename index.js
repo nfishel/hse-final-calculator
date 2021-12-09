@@ -37,7 +37,7 @@ const curGrade = document.querySelector('#curGrade');
 
 function getMyGrade(){
     let myCurGrade = Number(curGrade.value);
-    !myCurGrade? myCurGrade = 80:null;
+    !myCurGrade? myCurGrade = 0:null;
     const h2 = document.querySelector('h2');
     h2.innerText = `Grade On the Final: ${slider.value}`;
     const h1 = document.querySelector('#mySem1')
